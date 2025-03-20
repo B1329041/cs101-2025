@@ -2,7 +2,8 @@
 
 int main() {
     int* ip;
-    ip=2;
+    int var=2;
+    ip=&var;
     printf("%x\n",ip);
     printf("%x\n",*ip);
     return 0;
